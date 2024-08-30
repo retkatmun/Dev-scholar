@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: blue;
+    background-image: linear-gradient(to right, navy , blue);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent black */
+    padding: 1rem;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.toggle-button {
+    display: none;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.bar {
+    background-color: white;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+}
+.mylaptop {
+    background-image: linear-gradient(rgb(2, 5, 66, 0.3), rgba(16, 2, 94, 0.551)), url(/image/kkk.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    color: rgb(243, 243, 243);
+    text-align: center;
+    align-content: center;
+}
+.mylaptop,h2{
+   font-size: 40px;
+   margin-bottom: -30px;
+   font-family: "Raleway", sans-serif;
+}
+.mylaptop,h3{
+   font-size: 30px;
+   margin-bottom: -30px;
+   font-family: sans-serif;
+}
+.mylaptop,p{
+   font-size: 25px;
+   font-family: "Dosis", sans-serif;
+   letter-spacing: 2.5px;
+}
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: rgba(0, 0, 0, 10);
+    color: white;
+}
+
+#toggleButton {
+    /* margin: 20px; */
+    /* padding: 10px 20px; */
+    /* font-size: 16px; */
+    cursor: pointer;
+}
+ .color{
+    margin-top: 100px;
+    background-color: rgba(0, 0, 141, 0.647);
+    height: 600px;
+    display: flex;
+    color: white;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
+ }
+ .expert{
+    margin-top: 100px;
+    letter-spacing: 2px;
+    font-family:  sans-serif;
+    line-height: 1.5;
+    /* text-align: justify; */
+    font-size: 20px;
+    letter-spacing: 2;
+ }
+ .pic1{
+    margin-top: 25px;
+    font-family: sans-serif;
+ }
+.mwe{
+    color: white;
+    width: 80%;
+      margin: auto;
+}
+.progress{
+    margin-top: 180px;
+    font-size: 25px;
+}
+.service{
+    display: flex;
+    /* gap: 80px; */
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.service,small{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.service h2{
+    color: rgb(194, 187, 187);
+}
+.front-end{
+    margin: 10px;
+}
+.website{
+    margin: 10px;
+}
+/* 
+
+.footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-links {
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+} */
+
+
+
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: rgb(17, 0, 0); /* Semi-transparent black */
+    }
+
+    .nav-links a {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+    .mylaptop {
+        background-image: linear-gradient(rgb(2, 5, 66, 0.3), rgba(16, 2, 94, 0.551)), url(/image/kkk.jpg);
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        align-content: center;
+    }
+    .mylaptop,h2{
+       font-size: 35px;
+       margin-bottom: -20px;
+       font-family: "Raleway", sans-serif;
+    }
+    .mylaptop,h3{
+       font-size: 25px;
+       margin-bottom: -30px;
+       font-family: sans-serif;
+       font-weight: 900;
+    }
+    .mylaptop,p{
+       font-size: 28px;
+       font-family: "Dosis", sans-serif;
+       letter-spacing: 2px;
+       font-weight: 900;
+    }
+   
+    .color{
+        margin-top: 50px;
+        background-color: rgba(0, 0, 141, 0.647);
+      height: auto;
+        display: flex;
+        color: white;
+         /* justify-content: space-evenly; */
+         flex-wrap: wrap;
+     }
+     .expert{
+        margin-top: 60px;
+        letter-spacing: 2px;
+        font-size: 20px;
+        font-family: sans-serif;
+        line-height: 1.3;
+        text-align: center;
+     }
+     .pic1{
+        margin-top: 25px;
+        font-family: sans-serif;
+        font-size: 10px;
+     }
+     .progress{
+        margin-top: 20px;
+        font-size: 20px;
+        margin-bottom: 60px;
+     }
+     .pic1{
+        margin-top: 20px;
+        font-family: sans-serif;
+     }
+     .pic1 img{
+        width: 300px;
+        height: 400px;
+     }
+     .social-links a {
+        margin: 0 5px;
+    }
+
+    .social-links img {
+        width: 25px;
+        height: 25px;
+    }
+    .service{
+        display: flex;
+        /* gap: 80px; */
+        justify-content: space-evenly;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 1.2;
+        font-size: 20px;
+    }
+    
+}
+
+
+@media (max-width: 992px) {
+   
+}
