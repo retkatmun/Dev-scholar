@@ -58,6 +58,7 @@ body {
     margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: -30px;
 }
 .image{
     margin: 10px;
@@ -144,12 +145,13 @@ body {
     .about {
         flex-direction: column;
         margin: 40px;
+        margin-top: -100px;
     }
 
-    .about .image {
+    /* .about .image {
         margin-top: 0;
         padding: 50px;
-    }
+    } */
 
     .about .text,
     .about .image {
@@ -171,13 +173,13 @@ body {
 
     .about {
         padding: 10px;
+        margin-top: -100px;
     }
 
     .about .text {
         padding: 10px;
     }
     .about {
-        flex-direction: column;
         margin: 40px;
     }
 }

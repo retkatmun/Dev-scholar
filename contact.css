@@ -27,6 +27,7 @@ body {
     color: white;
     text-decoration: none;
     margin: 0 1rem;
+    flex-direction: column;
 }
 
 .toggle-button {
@@ -53,9 +54,9 @@ body {
 
 .talk{
     color: white;
-  width: 80%;
+    width: 80%;
     margin: auto;
-    
+    margin-top: -120px;
 }
 .talk p{
     font-size: 25px;
