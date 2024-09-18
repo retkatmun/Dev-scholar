@@ -116,6 +116,7 @@ body {
 .mwe{
     color: white;
     width: 80%;
+    font-family: sans-serif;
       margin: auto;
 }
 .progress{
@@ -141,9 +142,11 @@ body {
 }
 .front-end{
     margin: 10px;
+    font-family: sans-serif;
 }
 .website{
     margin: 10px;
+    font-family: sans-serif;
 }
 .website small{
     font-size: 18px;

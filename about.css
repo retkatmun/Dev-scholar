@@ -64,9 +64,10 @@ body {
     margin: 10px;
 }
 .text p{
-    font-size: 20px;
+    font-size: 23px;
     line-height: 2;
     letter-spacing: 3;
+    font-family: sans-serif;
 }
 .text h1{
     font-family: "Grey Qo", cursive;
